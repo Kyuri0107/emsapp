@@ -15,6 +15,7 @@
 		4E197F362321135600B27C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E197F342321135600B27C75 /* LaunchScreen.storyboard */; };
 		4E197F412321135700B27C75 /* EMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E197F402321135700B27C75 /* EMSTests.swift */; };
 		4E197F4C2321135700B27C75 /* EMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E197F4B2321135700B27C75 /* EMSUITests.swift */; };
+		4E8401AD23224F9000EBF940 /* example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8401AC23224F9000EBF940 /* example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4E197F472321135700B27C75 /* EMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E197F4B2321135700B27C75 /* EMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMSUITests.swift; sourceTree = "<group>"; };
 		4E197F4D2321135700B27C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8401AC23224F9000EBF940 /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		4E197F272321135500B27C75 /* EMS */ = {
 			isa = PBXGroup;
 			children = (
+				4E8401AB2322482700EBF940 /* New Group */,
 				4E197F282321135600B27C75 /* AppDelegate.swift */,
 				4E197F2A2321135600B27C75 /* ViewController.swift */,
 				4E197F2C2321135600B27C75 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				4E197F4D2321135700B27C75 /* Info.plist */,
 			);
 			path = EMSUITests;
+			sourceTree = "<group>";
+		};
+		4E8401AB2322482700EBF940 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4E8401AC23224F9000EBF940 /* example.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E8401AD23224F9000EBF940 /* example.swift in Sources */,
 				4E197F312321135600B27C75 /* EMS.xcdatamodeld in Sources */,
 				4E197F2B2321135600B27C75 /* ViewController.swift in Sources */,
 				4E197F292321135600B27C75 /* AppDelegate.swift in Sources */,
